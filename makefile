@@ -4,6 +4,8 @@ database.o:
 	gcc -c database.c -o database.o -std=c99 -Wall -pedantic
 alunos_dao.o:
 	gcc -c alunos/alunos_dao.c -o alunos_dao.o -std=c99 -Wall -pedantic
+menu.o:
+	gcc -c ui/menu.c -o menu.o -std=c99 -Wall -pedantic
 main.o:
 	gcc -c main.c -o main.o -std=c99 -Wall -pedantic
 clean:

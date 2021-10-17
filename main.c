@@ -10,6 +10,7 @@ int main()
 	open_database(&db);
 	execute_migrations(db);
 
+	/*
 	Aluno aluno;
 	strcpy(aluno.nome, "Carlos Rafael");
 	strcpy(aluno.sobrenome, "de Oliveira Carneiro");
@@ -17,8 +18,9 @@ int main()
 	strcpy(aluno.email, "contato@carlos.carneiro.nom.br");
 	aluno.qtde_faltas = 0;
 
-	insert_aluno(db, aluno);
 
+	insert_aluno(db, aluno);
+	*/
 	sqlite3_close(db);
 	return 0;
 }
